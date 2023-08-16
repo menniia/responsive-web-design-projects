@@ -15,5 +15,3 @@ Each project is contained within its respective folder. Navigate to each project
 - Donatus Mennia-Quansah - https://github.com/menniia
 
 Happy coding!
-
-# responsive-web-design-projects
