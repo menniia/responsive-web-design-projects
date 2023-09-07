@@ -1,0 +1,25 @@
+#navbar {
+    position: fixed;
+    height: 100%;
+    width: 300px;
+    border-right: solid;
+    border-color: black;
+    padding-left: 0;
+}
+
+#navbar ul li {
+    list-style: none;
+    height: 49px;
+    border-bottom: 1px solid black;
+    display: flex;
+        align-items: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #4d4e53;
+}
+
+#navbar ul {
+    padding-left: 0;
+}
