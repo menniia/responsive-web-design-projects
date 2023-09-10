@@ -5,21 +5,33 @@
     border-right: solid;
     border-color: black;
     padding-left: 0;
-}
+  }
 
-#navbar ul li {
+  #navbar ul li {
     list-style: none;
-    height: 49px;
-    border-bottom: 1px solid black;
+    height: 43px;
+    border-top: 1px solid black;
     display: flex;
-        align-items: center;
-}
+    margin-top: 2px;
+    align-items: center;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+  }
 
-.nav-link {
+  .nav-link {
     text-decoration: none;
     color: #4d4e53;
-}
+  }
 
-#navbar ul {
+  #navbar ul {
     padding-left: 0;
-}
+  }
+
+  #navbar header {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 1.8em;
+    font-weight: 480;
+  }

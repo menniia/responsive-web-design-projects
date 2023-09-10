@@ -24,8 +24,8 @@ This technical documentation website is designed to provide comprehensive inform
 
 ## Screenshots
 
-![Screenshots](screenshots/full-screen_documentation.jpg)
-![Screenshots](screenshots/half-screen_documentation.jpg)
+![Screenshots](screenshots/maximised-screen.png)
+![Screenshots](screenshots/reduced-screen.png)
 
 ## Installation
 
