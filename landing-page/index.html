@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="mediaquery.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
@@ -14,6 +15,7 @@
     <header id="header">
       <div class="logo">
         <img
+          id="header-img"
           src="images/product-landing-page-logo.png"
           alt="Trumpet logo"
           loading="lazy"
@@ -28,10 +30,16 @@
       </nav>
     </header>
 
-    <section>
+    <section id="hero">
       <h2>Handcrafted, home-made masterpieces</h2>
       <form action="https://www.freecodecamp.com/email-submit" id="form">
-        <input id="email" type="email" placeholder="Enter your email address" />
+        <input
+          name="email"
+          id="email"
+          type="email"
+          placeholder="Enter your email address"
+          required
+        />
         <input id="submit" type="submit" value="Get Started" />
       </form>
     </section>
@@ -46,10 +54,11 @@
             <h2>Premium Materials</h2>
             <p>
               Our trombones use the shiniest brass which is sourced locally.
-              This will increase the longevity of your purchase.
+              This will increase the longevity of your purchase
             </p>
           </div>
         </div>
+
         <div class="grid">
           <div class="icon">
             <i class="fa fa-3x fa-truck" aria-hidden="true"></i>
@@ -62,6 +71,7 @@
             </p>
           </div>
         </div>
+
         <div class="grid">
           <div class="icon">
             <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
@@ -75,6 +85,7 @@
           </div>
         </div>
       </section>
+
       <section id="How_It_Works">
         <iframe
           id="video"
@@ -87,34 +98,41 @@
           allowfullscreen
         ></iframe>
       </section>
+
       <section id="Pricing">
-        <div class="level">TENOR TROMBONE</div>
-        <h2>$600</h2>
-        <ol>
-          <li>Lorem ipsum.</li>
-          <li>Lorem ipsum.</li>
-          <li>Lorem ipsum dolor.</li>
-          <li>Lorem ipsum</li>
-        </ol>
-        <button class="btn">SELECT</button>
-        <div class="level">BASS TROMBONE</div>
-        <h2>$900</h2>
-        <ol>
-          <li>Lorem ipsum.</li>
-          <li>Lorem ipsum.</li>
-          <li>Lorem ipsum dolor.</li>
-          <li>Lorem ipsum</li>
-        </ol>
-        <button class="btn">SELECT</button>
-        <div class="level">VALVE TROMBONE</div>
-        <h2>$1200</h2>
-        <ol>
-          <li>Lorem ipsum.</li>
-          <li>Lorem ipsum.</li>
-          <li>Lorem ipsum dolor.</li>
-          <li>Lorem ipsum</li>
-        </ol>
-        <button class="btn">SELECT</button>
+        <div class="product">
+          <div class="level">TENOR TROMBONE</div>
+          <h2>$600</h2>
+          <ol>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum dolor.</li>
+            <li>Lorem ipsum</li>
+          </ol>
+          <button class="btn">SELECT</button>
+        </div>
+        <div class="product">
+          <div class="level">BASS TROMBONE</div>
+          <h2>$900</h2>
+          <ol>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum dolor.</li>
+            <li>Lorem ipsum</li>
+          </ol>
+          <button class="btn">SELECT</button>
+        </div>
+        <div class="product">
+          <div class="level">VALVE TROMBONE</div>
+          <h2>$1200</h2>
+          <ol>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum dolor.</li>
+            <li>Lorem ipsum</li>
+          </ol>
+          <button class="btn">SELECT</button>
+        </div>
       </section>
       <footer>
         <ul>
